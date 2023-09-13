@@ -1,0 +1,7 @@
+{
+	"key": "tag:device1:field1",
+	
+	"type": "INT32",
+	"function": "test_add",
+	"arguments": "10,100,1000"
+}

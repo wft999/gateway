@@ -1,0 +1,8 @@
+EXPORTS
+create_db
+open_db
+close_db
+put_db
+query_db
+db_errcode
+logError

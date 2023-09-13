@@ -1,0 +1,8 @@
+{
+	"key": "node:node1",
+	
+	"sample:device1": "0-0",
+	"sample:device2": "0-0",
+	"message:all": "0-0",
+	"message:self": "0-0"
+}

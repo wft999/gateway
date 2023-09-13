@@ -1,0 +1,11 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+
+PROJECT(LMdatabase)
+
+AUX_SOURCE_DIRECTORY(. SRC)
+INCLUDE_DIRECTORIES(${TD_ROOT_DIR}/src/inc ${TD_ROOT_DIR}/src/edb/inc)
+ADD_EXECUTABLE(edbdemo demo.c)
+ADD_EXECUTABLE(edbquery query.c)
+
+TARGET_LINK_LIBRARIES(edbdemo tutil edb)   
+TARGET_LINK_LIBRARIES(edbquery tutil edb) 
